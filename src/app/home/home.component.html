@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-preview">
+        <table>
+          <tr>
+            <th>Province State</th>
+            <th>Country Region</th>
+            <th>Confirmed</th>
+            <th>Recovered</th>
+            <th>Deaths</th>
+          </tr>
+
+          <tr *ngFor="let post of items">
+            <td>{{post.provinceState}}
+
+            <td>{{post.countryRegion}}</td>
+
+            <td>{{post.Confirmed}}</td>
+
+            <td>{{post.recovered}}</td>
+
+            <td>{{post.deaths}}</td>
+          </tr>
+
+      </table>
+    </div>
+    <hr>
+  </div>
+</div>
+</div>
